@@ -23,7 +23,7 @@ from bc_z.agent import CLIP_encoder, BCLangAgent
 
 def create_lang_encoder(cfg, device):
     return CLIP_encoder(device)
-
+  
 
 def create_agent(cfg, device: str):
     if 'cnn' in cfg.model:
