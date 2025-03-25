@@ -19,6 +19,7 @@ from dataset import ArnoldDataset, ArnoldMultiTaskDataset, InstructionEmbedding
 from peract.utils import normalize_quaternion
 from bc_z.blocks import SiameseNet, CNNLangAndFcsNet, ViT, ViTLangAndFcsNet
 from bc_z.agent import CLIP_encoder, BCLangAgent
+from bc_z.agent import CLIP_encoder, BCLangAgent
 
 
 def create_lang_encoder(cfg, device):
